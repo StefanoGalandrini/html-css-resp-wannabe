@@ -134,9 +134,32 @@ TO PREVENT OVERFLOW AND HORIZONTAL BAR
 WITH A SLIGHTLY HIGHER PRIORITY SELECTOR
 */ 
 
- div.container {
+div.container {
     width: auto;
     max-width: 1140px;
- }
+}
 
- 
+/* @media screen and (max-width: 768px) {
+
+} */
+
+@media screen and (max-width: 375px) {
+    .row {
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+
+    .col {
+        flex: 0 0 100%;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
+ }
