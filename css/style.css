@@ -127,3 +127,16 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/*
+OVERRIDE CONTAINER FIXED WIDTH
+TO PREVENT OVERFLOW AND HORIZONTAL BAR
+WITH A SLIGHTLY HIGHER PRIORITY SELECTOR
+*/ 
+
+ div.container {
+    width: auto;
+    max-width: 1140px;
+ }
+
+ 
